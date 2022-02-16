@@ -10,12 +10,6 @@ var x = document.getElementById('main')
 var xchild = document.getElementById('main').children
 
 var list = document.getElementById('main').childNodes;
-
-function deletediv(atindex){
-var list2 = document.getElementById('main').childNodes;
-console.log("INDEX"+atindex);
-        list[atindex].remove();
-}
 function refresh(){
         while (list.firstChild) {
             list.removeChild(myNode.firstChild);
