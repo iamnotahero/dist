@@ -51,7 +51,7 @@ function loopoverdiv(){
     });
     
 }
-if (divArray.length === 0){
+if (divArray.length == 0){
 savearray();}
 console.log(divArray);
 $(".black").click(function() {
